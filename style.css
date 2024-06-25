@@ -397,3 +397,28 @@ h3{
 
 
 footer p{color: #078052}
+
+.custom-box {
+    background-color: #f0f0f0; /* Colore di sfondo */
+    border: 1px solid #ddd; /* Bordo */
+    padding: 20px; /* Padding interno */
+    border-radius: 5px; /* Bordo arrotondato */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra */
+    margin: 20px auto; /* Margin */
+    width: 75%; /* Larghezza */
+}
+
+.custom-box h4 {
+    margin-top: 0; /* Rimuove il margine superiore per il titolo */
+    font-size: 20px; /* Dimensione del font per il titolo */
+    color: #520780; /* Colore del testo del titolo */
+    text-align: center; /* Allineamento del testo */
+    border-bottom: 2px solid #520780; /* Linea sotto il titolo */
+    padding-bottom: 10px; /* Spazio sotto il titolo */
+}
+
+.custom-box p {
+    font-size: 18px; /* Dimensione del font per il testo */
+    line-height: 1; /* Altezza della riga */
+    margin: 5px 0;
+}
