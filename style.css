@@ -1,7 +1,6 @@
-/* fatto per avere sempre larghezza uguale se dico widt*/
+/* fatto per avere sempre larghezza uguale se dico width */
 *{box-sizing: border-box;}
-body
-html{padding: 0;margin: 0}
+body, html{padding: 0;margin: 0}
 
 body{
   background: #f7fcfc;
@@ -14,7 +13,6 @@ body.index{
   font-size: 18px;
 }
 
-
 body.index a {
   color: #078052;
   text-decoration: none;
@@ -26,9 +24,6 @@ body.research a{
   text-decoration: none;
   font-size: 17px;
 }
-
-
-
 
 nav {
   padding: 25px 15px 5px 100px;
@@ -72,9 +67,6 @@ nav {
   padding: 5px 5px 5px 5px;
 }
 
-
-
-
 .social-link {
   padding: 5px 5px 5px 5px;
   border: none !important; /* Rimuovi il bordo per il link di Twitter */
@@ -85,114 +77,104 @@ nav {
   border: none !important; /* Rimuovi il bordo per il link di Twitter */
 }
 
-
-
-
-.container{padding: 50px 50px 50px 50px;
+.container {
+  padding: 50px 50px 50px 50px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.container_researchteaching{padding: 50px 50px 50px 100px;
+.container_researchteaching {
+  padding: 50px 50px 50px 100px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
-
-.skills{padding: 50px 100px 50px 100px;
+.skills {
+  padding: 50px 100px 50px 100px;
   margin-left: 150px;
   margin-right: 150px;
 }
 
-.grid{
+.grid {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
 
-.center_2{
-    text-align: center;
-      font-size: 15px;
+.center_2 {
+  text-align: center;
+  font-size: 15px;
 }
 
-
-.col-50{
+.col-50 {
   width: 50%;
   padding: 10px;
   align-items: center;
   align-self: center;
 }
 
-.col-33{
+.col-33 {
   width: 33.3%;
   padding: 0px;
   align-items: center;
   align-self: center;
 }
 
-.col-33_coding{
+.col-33_coding {
   width: 33.3%;
   padding: 0px;
   align-items: center;
   align-self: center;
 }
 
-.col-15{
+.col-15 {
   width: 15%;
   padding: 0px;
   align-items: center;
   align-self: center;
 }
 
-
-
-.img-res{
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 380px;
-  }
-
-.img-logo{
-    height: auto;
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 15%;}
+.img-res {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
 }
 
+.img-logo {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
 
-p{
+p {
   color: #000;
   font-size: 18px;
 }
 
-
-
-b{
+b {
   font-size: 14px;
 }
 
-
-main{
+main {
   align-items: center;
   text-align: justify;
 }
 
-
-footer{border-top: 2px solid #90a390;
-       padding: 0px 15px 5px 15px;
-       width: 100%;
-        text-align: center;
-        font-family: "Courier New", monospace;
+footer {
+  border-top: 2px solid #90a390;
+  padding: 0px 15px 5px 15px;
+  width: 100%;
+  text-align: center;
+  font-family: "Courier New", monospace;
 }
-
-
 
 /*  IPHONE */
 @media (max-width: 733px) {
@@ -214,11 +196,10 @@ footer{border-top: 2px solid #90a390;
   #nav_bar {
     display: flex; /* Usa Flexbox per allineare gli elementi del menu */
     flex-direction: column;
-    float:left;
+    float: left;
     padding: 0;
-    margin-left: -75;
+    margin-left: -75px;
   }
-
 
   #nav_bar li {
     text-align: center;
@@ -230,195 +211,227 @@ footer{border-top: 2px solid #90a390;
     text-align: center;
     text-decoration: none; /* Rimuovi la sottolineatura dai link */
     font-size: 20px;
-     border: 5px solid transparent; /* Imposta un bordo trasparente */
+    border: 5px solid transparent; /* Imposta un bordo trasparente */
   }
 
   #nav_bar li a:hover {
     border: 1px solid #90a390; /* Cambia il colore del bordo al passaggio del mouse */
   }
 
-  .col-50{
+  .col-50 {
     width: 100%;
     align-items: center;
     align-self: center;
   }
 
-h3{
-  text-align: left;
-}
+  h3 {
+    text-align: left;
+  }
 
-  .img-res{
+  .img-res {
     height: auto;
     display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;}
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
-      .container{
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: 50;
-      }
+  .container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 50px;
+  }
 
-      .container_researchteaching{
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: 50;
-      }
+  .container_researchteaching {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 50px;
+  }
 
-      .skills{
-        margin-left: 0px;
-        margin-right: 0px;
-      }
+  .skills {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-      .col-33_coding{
-        width: 100%;
-        padding: 0px;
-        align-items: center;
-        align-self: center;
-      }
+  .col-33_coding {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    align-self: center;
+  }
 
-      .col-33{
-        width: 100%;
-        padding: 0px;
-        align-items: center;
-        align-self: center;
-      }
+  .col-33 {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    align-self: center;
+  }
 
-      .col-15{
-        width: 100%;
-        padding: 0px;
-        align-items: center;
-        align-self: center;
-      }
+  .col-15 {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    align-self: center;
+  }
 
+  .custom-box {
+    width: 90%; /* Larghezza della custom box su schermi piccoli */
+    padding: 10px; /* Riduce il padding interno */
+  }
 
+  .custom-box h2 {
+    font-size: 18px; /* Dimensione del font ridotta per il titolo */
+  }
+
+  .custom-box p {
+    font-size: 16px; /* Dimensione del font ridotta per il testo */
+  }
 }
 
 /*  IPAD */
-@media (min-width:733px) and (max-width: 1023px) {
-
-  .col-50{
+@media (min-width: 733px) and (max-width: 1023px) {
+  .col-50 {
     width: 50%;
     align-items: center;
     align-self: center;
   }
 
-h3{
-  text-align: left;
-}
+  h3 {
+    text-align: left;
+  }
 
-  .img-res{
+  .img-res {
     height: auto;
     display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;}
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
-      .container{
-        margin-left: 0px;
-        margin-right: 0px;
-      }
+  .container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-      .container_researchteaching{
-        margin-left: 0px;
-        margin-right: 0px;
-      }
+  .container_researchteaching {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-      .skills{
-        margin-left: 0px;
-        margin-right: 0px;
-      }
+  .skills {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-      .col-33{
-        width: 100%;
-        padding: 0px;
-        align-items: center;
-        align-self: center;
-      }
+  .col-33 {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    align-self: center;
+  }
 
-      .col-15{
-        width: 100%;
-        padding: 0px;
-        align-items: center;
-        align-self: center;
-      }
+  .col-15 {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    align-self: center;
+  }
 
+  .custom-box {
+    width: 85%; /* Larghezza della custom box su schermi medi */
+    padding: 15px; /* Riduce leggermente il padding interno */
+  }
+
+  .custom-box h2 {
+    font-size: 20px; /* Dimensione del font ridotta per il titolo */
+  }
+
+  .custom-box p {
+    font-size: 17px; /* Dimensione del font ridotta per il testo */
+  }
 }
-
 
 /*  IPAD AIR */
-@media (min-width:1023px) and (max-width: 1366px) {
-
-  .col-50{
+@media (min-width: 1023px) and (max-width: 1366px) {
+  .col-50 {
     width: 50%;
     align-items: center;
     align-self: center;
   }
 
-h3{
-  text-align: left;
-}
+  h3 {
+    text-align: left;
+  }
 
-  .img-res{
+  .img-res {
     height: auto;
     display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;}
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
-      .container{
-        margin-left: 0px;
-        margin-right: 0px;
-      }
+  .container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-      .container_researchteaching{
-        margin-left: 0px;
-        margin-right: 10px;
-      }
+  .container_researchteaching {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
 
-      .skills{
-        margin-left: 0px;
-        margin-right: 0px;
-      }
+  .skills {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-      .col-33{
-        width: 40%;
-        padding: 0px;
-        align-items: center;
-        align-self: center;
-      }
+  .col-33 {
+    width: 40%;
+    padding: 0px;
+    align-items: center;
+    align-self: center;
+  }
 
+  .custom-box {
+    width: 75%; /* Larghezza della custom box su schermi più grandi */
+    padding: 20px; /* Padding interno normale */
+  }
 
+  .custom-box h2 {
+    font-size: 24px; /* Dimensione del font normale per il titolo */
+  }
 
-
+  .custom-box p {
+    font-size: 18px; /* Dimensione del font normale per il testo */
+  }
 }
 
-
-
-footer p{color: #078052}
+footer p {
+  color: #078052;
+}
 
 .custom-box {
-    background-color: #f0f0f0; /* Colore di sfondo */
-    border: 1px solid #ddd; /* Bordo */
-    padding: 20px; /* Padding interno */
-    border-radius: 5px; /* Bordo arrotondato */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra */
-    margin: 20px auto; /* Margin */
-    width: 75%; /* Larghezza */
+  background-color: #f0f0f0; /* Colore di sfondo */
+  border: 1px solid #ddd; /* Bordo */
+  padding: 20px; /* Padding interno */
+  border-radius: 5px; /* Bordo arrotondato */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra */
+  margin: 20px auto; /* Margin */
+  width: 75%; /* Larghezza */
 }
 
 .custom-box h4 {
-    margin-top: 0; /* Rimuove il margine superiore per il titolo */
-    font-size: 20px; /* Dimensione del font per il titolo */
-    color: #520780; /* Colore del testo del titolo */
-    text-align: center; /* Allineamento del testo */
-    border-bottom: 2px solid #520780; /* Linea sotto il titolo */
-    padding-bottom: 10px; /* Spazio sotto il titolo */
+  margin-top: 0; /* Rimuove il margine superiore per il titolo */
+  font-size: 20px; /* Dimensione del font per il titolo */
+  color: #520780; /* Colore del testo del titolo */
+  text-align: center; /* Allineamento del testo */
+  border-bottom: 2px solid #520780; /* Linea sotto il titolo */
+  padding-bottom: 10px; /* Spazio sotto il titolo */
 }
 
 .custom-box p {
-    font-size: 18px; /* Dimensione del font per il testo */
-    line-height: 1; /* Altezza della riga */
-    margin: 5px 0;
+  font-size: 18px; /* Dimensione del font per il testo */
+  line-height: 1; /* Altezza della riga */
+  margin: 5px 0;
 }
