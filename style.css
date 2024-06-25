@@ -27,6 +27,23 @@ body.research a{
   font-size: 17px;
 }
 
+.news-box {
+    background-color: #520780; /* Colore viola */
+    color: white; /* Colore del testo bianco */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-box h2 {
+    margin-top: 0;
+}
+
+.news-box p {
+    margin: 5px 0;
+}
+
 
 
 
