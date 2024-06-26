@@ -279,7 +279,7 @@ footer {
     padding: 10px; /* Riduce il padding interno */
   }
 
-  .custom-box h2 {
+  .custom-box h4 {
     font-size: 18px; /* Dimensione del font ridotta per il titolo */
   }
 
@@ -342,7 +342,7 @@ footer {
     padding: 15px; /* Riduce leggermente il padding interno */
   }
 
-  .custom-box h2 {
+  .custom-box h4 {
     font-size: 20px; /* Dimensione del font ridotta per il titolo */
   }
 
@@ -398,7 +398,7 @@ footer {
     padding: 20px; /* Padding interno normale */
   }
 
-  .custom-box h2 {
+  .custom-box h4 {
     font-size: 24px; /* Dimensione del font normale per il titolo */
   }
 
