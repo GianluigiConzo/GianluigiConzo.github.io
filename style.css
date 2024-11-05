@@ -438,15 +438,15 @@ footer p {
 
 
 button, .button {
-  background-color: #4CAF50; /* Colore di sfondo verde */
-  border: none; /* Rimuove il bordo */
-  color: white; /* Colore del testo bianco */
-  padding: 15px 32px; /* Spaziatura interna */
-  text-align: center; /* Allineamento del testo */
-  text-decoration: none; /* Rimuove la sottolineatura (utile per link) */
-  display: inline-block; /* Disposizione in linea */
-  font-size: 16px; /* Dimensione del carattere */
-  margin: 4px 2px; /* Margine */
-  cursor: pointer; /* Puntatore del mouse a forma di mano */
-  border-radius: 8px; /* Arrotonda gli angoli */
+  background-color: white; /* Sfondo bianco per risaltare il bordo */
+  color: #4CAF50; /* Colore del testo */
+  border: 2px solid #4CAF50; /* Bordo con colore verde */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Arrotondamento angoli */
 }
