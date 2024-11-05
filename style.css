@@ -435,3 +435,18 @@ footer p {
   line-height: 1; /* Altezza della riga */
   margin: 5px 0;
 }
+
+
+button, .button {
+  background-color: #4CAF50; /* Colore di sfondo verde */
+  border: none; /* Rimuove il bordo */
+  color: white; /* Colore del testo bianco */
+  padding: 15px 32px; /* Spaziatura interna */
+  text-align: center; /* Allineamento del testo */
+  text-decoration: none; /* Rimuove la sottolineatura (utile per link) */
+  display: inline-block; /* Disposizione in linea */
+  font-size: 16px; /* Dimensione del carattere */
+  margin: 4px 2px; /* Margine */
+  cursor: pointer; /* Puntatore del mouse a forma di mano */
+  border-radius: 8px; /* Arrotonda gli angoli */
+}
