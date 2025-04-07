@@ -46,6 +46,28 @@
     </p>
   </div>
   </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const toggleBtn = document.getElementById("toggleAbstract");
+    const abstractContent = document.getElementById("abstractContent");
+
+    if (toggleBtn && abstractContent) {
+      toggleBtn.addEventListener("click", function() {
+        // Controlla lo stato attuale e alterna la visibilità
+        if (abstractContent.style.display === "none" || abstractContent.style.display === "") {
+          abstractContent.style.display = "block";
+          toggleBtn.textContent = "×"; // Puoi usare "×" per indicare la chiusura
+          toggleBtn.setAttribute("aria-expanded", "true");
+        } else {
+          abstractContent.style.display = "none";
+          toggleBtn.textContent = "+";
+          toggleBtn.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  });
+</script>
+
   <br>
   <img src="My_Pictures/5day_CSR_uniform_2.png" alt="" class="img-paper";>
   </p>
