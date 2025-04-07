@@ -185,12 +185,9 @@ footer {
 
 /* Stile base per il button espandibile */
 #toggleAbstract {
-  font-size: 1.5em;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
-  margin-left: 10px;
   transition: transform 0.3s ease;
 }
 
