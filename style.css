@@ -194,9 +194,6 @@ footer {
 /* (Opzionale) Se vuoi far ruotare il simbolo quando è espanso */
 #abstract-section.expanded #toggleAbstract {
   transform: rotate(45deg);
-  padding: 50px 50px 50px 100px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 
