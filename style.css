@@ -149,8 +149,7 @@ nav {
 .img-paper {
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
   width: 50%;
 }
 
