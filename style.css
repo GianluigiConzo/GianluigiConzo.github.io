@@ -495,3 +495,13 @@ button, .button {
   cursor: pointer;
   border-radius: 8px; /* Arrotondamento angoli */
 }
+
+button2, .button {
+  background-color: white; /* Sfondo bianco per risaltare il bordo */
+  color: #4CAF50; /* Colore del testo */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
