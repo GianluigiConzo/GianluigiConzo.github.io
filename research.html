@@ -36,7 +36,8 @@
 
   <p>
   Revolutionary Threats and Policing Behavior: Evidence from the Brigate Rosse Era
-  <button id="toggleAbstract" aria-expanded="false">Abstract (+)</button>
+  <br>
+  <button id="toggleAbstract" aria-expanded="false">[Abstract (+)]</button>
   <!-- Blocco contenente l'abstract, nascosto inizialmente -->
   <div id="abstractContent" style="display: none;">
     <p>
@@ -53,11 +54,11 @@
         // Controlla lo stato attuale e alterna la visibilità
         if (abstractContent.style.display === "none" || abstractContent.style.display === "") {
           abstractContent.style.display = "block";
-          toggleBtn.textContent = "Abstract (×)"; // Puoi usare "×" per indicare la chiusura
+          toggleBtn.textContent = "[Abstract (×)]"; // Puoi usare "×" per indicare la chiusura
           toggleBtn.setAttribute("aria-expanded", "true");
         } else {
           abstractContent.style.display = "none";
-          toggleBtn.textContent = "Abstract (+)";
+          toggleBtn.textContent = "[Abstract (+)]";
           toggleBtn.setAttribute("aria-expanded", "false");
         }
       });
