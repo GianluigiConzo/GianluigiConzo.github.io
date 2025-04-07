@@ -146,6 +146,14 @@ nav {
   width: 380px;
 }
 
+.img-paper {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
 .img-logo {
   height: auto;
   display: block;
