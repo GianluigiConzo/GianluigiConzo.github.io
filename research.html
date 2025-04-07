@@ -37,7 +37,7 @@
   <p>
   Revolutionary Threats and Policing Behavior: Evidence from the Brigate Rosse Era
   <br>
-  <button2 id="toggleAbstract" aria-expanded="false">[+ Abstract]</button2>
+  <button2 id="toggleAbstract" aria-expanded="false">+ Abstract</button2>
   <!-- Blocco contenente l'abstract, nascosto inizialmente -->
   <div id="abstractContent" style="display: none;">
     <p>
@@ -54,11 +54,11 @@
         // Controlla lo stato attuale e alterna la visibilità
         if (abstractContent.style.display === "none" || abstractContent.style.display === "") {
           abstractContent.style.display = "block";
-          toggleBtn.textContent = "[- Abstract]"; // Puoi usare "×" per indicare la chiusura
+          toggleBtn.textContent = "- Abstract"; // Puoi usare "×" per indicare la chiusura
           toggleBtn.setAttribute("aria-expanded", "true");
         } else {
           abstractContent.style.display = "none";
-          toggleBtn.textContent = "[+ Abstract]";
+          toggleBtn.textContent = "+ Abstract";
           toggleBtn.setAttribute("aria-expanded", "false");
         }
       });
@@ -78,35 +78,7 @@ Shadows of Power: The Impact of Italy’s Cold War Stay-Behind Networks
 </p>
 
 <p>
-When War Crowds Out the Pandemic: Health and Political Effects of Media Shifts (with P. Conzo)
-<button2 id="toggleAbstract" aria-expanded="false">[+ Abstract]</button2>
-<!-- Blocco contenente l'abstract, nascosto inizialmente -->
-<div id="abstractContent" style="display: none;">
-  <p>
-    This paper explores the unintended effects of a sudden media shift from COVID-19 coverage to the Russo-Ukrainian war. Using a Difference-in-Differences event study, we first examine how increased media focus on the war impacted COVID-19 contagion across Italian municipalities, with proximity to U.S. military bases serving as our treatment and proxy for heightened fear. Our findings reveal a temporary spike in infections, particularly in areas closer to bases, driven by increased mobility and a rise in "bunker" Google searches. Secondly, we show that politicians, especially from right-wing parties, gained electoral advantages in subsequent unexpected elections by leveraging war-related fears at the onset of the conflict. Voters in districts near bases responded more to the emotional tone of war-related messaging than its volume, underscoring fear's influence on political outcomes. In contrast, left-wing parties benefited from the war’s media prominence, as their supporters responded more to issue salience than to emotional tone.
-  </p>
-</div>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const toggleBtn = document.getElementById("toggleAbstract");
-  const abstractContent = document.getElementById("abstractContent");
-
-  if (toggleBtn && abstractContent) {
-    toggleBtn.addEventListener("click", function() {
-      // Controlla lo stato attuale e alterna la visibilità
-      if (abstractContent.style.display === "none" || abstractContent.style.display === "") {
-        abstractContent.style.display = "block";
-        toggleBtn.textContent = "[- Abstract]"; // Puoi usare "×" per indicare la chiusura
-        toggleBtn.setAttribute("aria-expanded", "true");
-      } else {
-        abstractContent.style.display = "none";
-        toggleBtn.textContent = "[+ Abstract]";
-        toggleBtn.setAttribute("aria-expanded", "false");
-      }
-    });
-  }
-});
-</script>
+Contagion and Political Consequences of Shifting Media Attention (with P. Conzo)
 <br>
 [Draft available upon request]
 </p>
@@ -166,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <br>
 (with L. Becchetti, F. Salustri)
 <br>
-<b>Ecological Economics</b>, 2025
+Forthcoming at <b>Ecological Economics</b>
 </p>
 
 
