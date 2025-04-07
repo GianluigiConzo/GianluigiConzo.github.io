@@ -151,7 +151,7 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 5px;
+  width: 100px;
 }
 
 .img-logo {
@@ -244,6 +244,14 @@ footer {
     width: 100%;
   }
 
+  .img-paper {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
   .container {
     margin-left: 0px;
     margin-right: 0px;
@@ -316,6 +324,14 @@ footer {
     width: 100%;
   }
 
+  .img-paper {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
   .container {
     margin-left: 0px;
     margin-right: 0px;
@@ -372,6 +388,14 @@ footer {
   }
 
   .img-res {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .img-paper {
     height: auto;
     display: block;
     margin-left: auto;
