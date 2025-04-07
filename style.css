@@ -183,6 +183,23 @@ footer {
   font-family: "Courier New", monospace;
 }
 
+/* Stile base per il button espandibile */
+#toggleAbstract {
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* (Opzionale) Se vuoi far ruotare il simbolo quando è espanso */
+#abstract-section.expanded #toggleAbstract {
+  transform: rotate(45deg);
+}
+
+
 /*  IPHONE */
 @media (max-width: 733px) {
   nav {
